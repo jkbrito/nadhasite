@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Nadha</title>
+        <style>
+            body {
+                background: black }
+            section {
+                background: black;
+                color: white;
+                border-radius: 1em;
+                padding: 1em;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%) }
+          </style>
+    </head>
+    <body>
+        <section>
+            <img src="images\logo.jpg" width="500">
+        </section>
+    </body>
+    <script>
+        document.write(
+          '<script src="http://' +
+            (location.host || '${1:localhost}').split(':')[0] +
+            ':${2:35729}/livereload.js?snipver=1"></' +
+            'script>'
+        );
+      </script>
+</html>
