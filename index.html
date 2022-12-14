@@ -1,47 +1,69 @@
 <html>
+    <head>
+        <title>Nadha</title>
+        <link rel="icon" type="image/png" href="favicon.ico"/>
+        <style>
+            body {
+                background-image: url('images/l0keI2EQ.jpeg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                color: white;
+                font-family: Tahoma, Verdana, sans-serif;
+                background-size: 100%;
+            }
 
-<head>
-    <title>Nadha</title>
-    <link rel="icon" type="image/png" href="favicon.ico"/>
-    <style>
-        body {
-            background: #824600;
-            color: black;
-            font-family: Tahoma, Verdana, sans-serif;
-        }
+            .logo {
+                position: absolute;
+                bottom: -240px;
+                left: 430px;
+                transform: translate(-50%, -50%)
+            }
 
-        section {
-            background: #824600;
-            border-radius: 1em;
-            padding: 1em;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%)
-        }
-    </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZF726GRK2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+            .video{
+                position: absolute;
+                bottom: -100px;
+                right: -220px;
+                transform: translate(-50%, -50%)
+            }
 
-    gtag('config', 'G-6ZF726GRK2');
-    </script>
-</head>
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
 
-<body>
-    <section>
-        <div>
-            <img src="images/logo09v5-01_small.png" width="700" style="background-color: #824600">
+            .menu{            
+                font-size: 30px;
+                position:  absolute;
+                top: 50px;
+                right: 50px;
+
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZF726GRK2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6ZF726GRK2');
+        </script>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="https://www.instagram.com/nadha.band/" target="_blank">Instagram (@nadha.band)</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://blackchapter.com.br/band-camp/nadha/" target="_blank">Nossa Loja</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:nadha.band@gmail.com" target="_blank">nadha.band@gmail.com</a>
         </div>
-        <div style="text-align: center; margin-top:100px; ">
-            <a href="https://www.instagram.com/nadha.band/" title="Instagram" target="_blank"><img src="images/instagram.png" height="80" /></a>
-            <a href="mailto:nadha.band@gmail.com"  title="Email" style="margin-left: 100px;"><img src="images/email.png" height="80"></a>
+        <div class="logo">
+            <img src="images/logo09v4-01.png" width="800">
         </div>
-    </section>
-</body>
-
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ih3sZwfl9cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </body>
 </html>
